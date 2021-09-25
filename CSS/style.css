@@ -1,0 +1,139 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body,
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#header,
+#footer,
+#main {
+  width: 100%;
+}
+
+@media screen and (min-width: 0) {
+  * {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 575px) {
+  * {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  * {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  * {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  * {
+    font-size: 30px;
+  }
+}
+.main-background {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+.main-background video {
+  object-fit: cover;
+  width: 100%;
+}
+
+.main-content {
+  position: relative;
+}
+.main-content .logo {
+  padding-left: 2%;
+  margin-top: 30px;
+}
+.main-content .logo img {
+  width: 100px;
+}
+.main-content .introduce-content {
+  margin-top: 10%;
+}
+.main-content .introduce-content .first_introduce-content {
+  padding-left: 18%;
+}
+.main-content .introduce-content .first_introduce-content p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgba(196, 189, 189, 0.61);
+}
+.main-content .introduce-content .first_introduce-content h1 {
+  font-weight: bold;
+  font-size: 2.6rem;
+  color: rgba(255, 255, 255, 0.705);
+  line-height: 1.5em;
+}
+.main-content .introduce-content .social_introduce-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 2rem;
+}
+.main-content .introduce-content .social_introduce-content img {
+  width: 25px;
+  height: 25px;
+  margin: 20px 0 20px 0;
+}
+.main-content .introduce-content .second_introduce-content {
+  padding-left: 18%;
+}
+.main-content .introduce-content .second_introduce-content button {
+  background-color: rgba(250, 235, 215, 0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 350px;
+  height: 80px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.greeting {
+  margin-top: 20vh;
+  background-color: #2b68ec;
+}
+.greeting .first-greeting {
+  margin-top: 20vh;
+  text-align: center;
+}
+.greeting .first-greeting p {
+  font-weight: 400;
+  font-size: 40px;
+}
+.greeting .first-greeting h1 {
+  font-weight: 800;
+  font-size: 80px;
+  display: inline;
+  border-bottom: 2px solid white;
+}
+
+/*# sourceMappingURL=style.css.map */
