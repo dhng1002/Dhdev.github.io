@@ -21,18 +21,21 @@ body,
 
 #header {
   position: fixed;
-  margin-top: 30px;
+  margin-top: 50px;
   z-index: 1;
 }
 #header button {
   display: flex;
   position: absolute;
+  align-items: center;
+  justify-content: center;
   right: 50px;
   color: white;
   background-color: rgba(255, 255, 255, 0);
   border: none;
+}
+#header button span {
   font-size: 20px;
-  padding: 20px;
 }
 #header button i {
   padding-left: 20px;
@@ -103,11 +106,11 @@ body,
   position: relative;
 }
 .main-content .logo {
-  padding-left: 2%;
-  margin-top: 30px;
+  padding-left: 50px;
+  margin-top: 42px;
 }
 .main-content .logo img {
-  width: 100px;
+  width: 130px;
 }
 .main-content .introduce-content {
   margin-top: 10%;
@@ -131,7 +134,7 @@ body,
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding-right: 2rem;
+  padding-right: 50px;
 }
 .main-content .introduce-content .social_introduce-content img {
   width: 25px;
